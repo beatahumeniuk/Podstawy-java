@@ -17,7 +17,7 @@ public class Calculator {
     public int getB() {
         return b;
     }
-
+//czy sum na pewno powinno tak wyglądać?
     public int sum() {
         return a + a;
     }
@@ -34,7 +34,7 @@ public class Calculator {
 //        return total;
         return a * b;
     }
-
+// spróbuj zmienić tę funkcję w taki sposób żeby nie zaokrąglała wyniku
     public double division() {
         double result;
         result = a / b;
