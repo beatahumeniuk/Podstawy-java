@@ -3,6 +3,7 @@ package com.company;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+// literówka w nazwie klasy
 public class CalculatorTets {
 
         @Test
@@ -37,5 +38,7 @@ public class CalculatorTets {
             result = calculator.multiplication();
 
             Assertions.assertEquals(-25, result);
+                //            przydałby się jeszcze test, który mnoży dwie liczby ujemne
+
         }
     }
